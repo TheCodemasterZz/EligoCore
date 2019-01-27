@@ -1,0 +1,37 @@
+{
+  "ReRoutes": [
+    {
+      "ServiceName": "EligoServicesApplicationApi",
+      "DownstreamPathTemplate": "/api/values/",
+      "DownstreamScheme": "http",
+      "DownstreamHttpMethod": [ "Get" ],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 10000
+        }
+      ],
+      "UpstreamPathTemplate": "/api/values/",
+      "UpstreamHttpMethod": [ "Get" ],
+      "LoadBalancer": "RoundRobin"
+      //"FileCacheOptions": { "TtlSeconds": 15 },
+      //"AuthenticationOptions": {
+      //  "AuthenticationProviderKey": "ApiSecurity",
+      //  "AllowedScopes": []
+      //},
+      //"RouteClaimsRequirement": {
+      //  "userType": "SALESMAN"
+      //}
+    }
+  ],
+  "GlobalConfiguration": {
+    //"RequestIdKey": "OcRequestId",
+    //"AdministrationPath": "/administration",
+    "UseServiceDiscovery" : true,
+    "ServiceDiscoveryProvider": {
+      "Type": "Eureka",
+      "Host": "localhost",
+      "Port": "8761"
+    }
+  }
+}

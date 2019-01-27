@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <UserSecretsId>2de9559e-a2a4-4c60-bfba-2e4b1bfb5e76</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.0.2105168" />
+    <PackageReference Include="Ocelot" Version="13.0.0" />
+    <PackageReference Include="Ocelot.Cache.CacheManager" Version="13.0.0" />
+    <PackageReference Include="Ocelot.Provider.Eureka" Version="13.0.0" />
+  </ItemGroup>
+
+</Project>
