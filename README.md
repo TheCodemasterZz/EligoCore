@@ -10,6 +10,10 @@ Eureka is a REST (Representational State Transfer) based service that is primari
 
 Ocelot is a .NET API Gateway. This project is aimed at people using .NET running a micro services / service oriented architecture that need a unified point of entry into their system.
 
+## Features
+* ASP.NET Core 2.2
+* Enterprise ASP.NET Core Architecture
+
 ## Coming Soon
 * Middleware for handling requests for static files like CSS, JS etc. 
 * Multi-Tenancy
