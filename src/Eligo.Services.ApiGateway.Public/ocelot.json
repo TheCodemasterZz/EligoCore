@@ -1,14 +1,14 @@
 {
   "ReRoutes": [
     {
-      "ServiceName": "EligoServicesApplicationApi",
+      "ServiceName": "Eligo.Services.Identification.Api",
       "DownstreamPathTemplate": "/api/values/",
       "DownstreamScheme": "http",
       "DownstreamHttpMethod": [ "Get" ],
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 10000
+          "Port": 10001
         }
       ],
       "UpstreamPathTemplate": "/api/values/",
