@@ -14,6 +14,9 @@ Ocelot is a .NET API Gateway. This project is aimed at people using .NET running
 * ASP.NET Core 2.2
 * Angular Cli 7.2.3
 * Enterprise ASP.NET Core Architecture
+* IdentityServer4
+* JWT authentication with refresh tokens
+* Swagger
 
 ## Coming Soon
 * Middleware for handling requests for static files like CSS, JS etc. 
